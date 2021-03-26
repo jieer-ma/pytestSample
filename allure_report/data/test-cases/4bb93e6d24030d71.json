@@ -1,0 +1,85 @@
+{
+  "uid" : "4bb93e6d24030d71",
+  "name" : "测试数据：【138000000 6, 26, 手机号不合法, {}】",
+  "fullName" : "send_verification_code.test_03_send_verification_code_param.TestSendVerificationCode#test_send_verify_code",
+  "historyId" : "2d8332d50a31951906134b012319a0b7",
+  "time" : {
+    "start" : 1616746477659,
+    "stop" : 1616746477665,
+    "duration" : 6
+  },
+  "description" : "该用例对请求短信验证码接口参数进行测试",
+  "descriptionHtml" : "<p>该用例对请求短信验证码接口参数进行测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "请求短信验证码模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "用例-参数校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "send_verification_code"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_send_verification_code_param"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendVerificationCode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "send_verification_code.test_03_send_verification_code_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "26"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'手机号不合法'"
+  }, {
+    "name" : "expect_result",
+    "value" : "{}"
+  }, {
+    "name" : "mobile",
+    "value" : "'138000000 6'"
+  }, {
+    "name" : "status_code",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bb93e6d24030d71.json",
+  "parameterValues" : [ "26", "'手机号不合法'", "{}", "'138000000 6'", "200" ]
+}

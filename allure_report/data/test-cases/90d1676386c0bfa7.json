@@ -1,0 +1,88 @@
+{
+  "uid" : "90d1676386c0bfa7",
+  "name" : "13800000099 请求短信验证码成功",
+  "fullName" : "send_verification_code.test_01_send_verification_code.TestSendVerificationCode#test_send_verification_code",
+  "historyId" : "00f0b01324256cdf82adeedf1d0af2f9",
+  "time" : {
+    "start" : 1616746354409,
+    "stop" : 1616746354534,
+    "duration" : 125
+  },
+  "description" : "冒烟测试：调用接口输入正确手机号请求验证码，预期请求成功",
+  "descriptionHtml" : "<p>冒烟测试：调用接口输入正确手机号请求验证码，预期请求成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746354400,
+      "stop" : 1616746354409,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "请求短信验证码模块"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "用例-请求短信验证码冒烟"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "send_verification_code"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_send_verification_code"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendVerificationCode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "send_verification_code.test_01_send_verification_code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "90d1676386c0bfa7.json",
+  "parameterValues" : [ ]
+}

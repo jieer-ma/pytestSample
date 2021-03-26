@@ -1,0 +1,112 @@
+{
+  "uid" : "f0239392597e3b73",
+  "name" : "测试数据：【毛泽东, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "fullName" : "register.test_04_register_param.TestRegister#test_register",
+  "historyId" : "81c000c58af735bbdd69c77b198ca1eb",
+  "time" : {
+    "start" : 1616746353850,
+    "stop" : 1616746353857,
+    "duration" : 7
+  },
+  "description" : "该用例对注册接口参数进行校验",
+  "descriptionHtml" : "<p>该用例对注册接口参数进行校验</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'data': {}, ...'status': 149} == {'data': {}, ... 'status': 26}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'msg': '验证码不正确'} != {'msg': '联系人姓名由2-10个汉字组成'}\n  {'status': 149} != {'status': 26}\n  Use -v to get the full diff",
+  "statusTrace" : "self = <testcases.register.test_04_register_param.TestRegister object at 0x0000019E5CFCD748>, nickname = '毛泽东', mobile = '13800000057', verify_code = '123456', expect_code = 26\nexpect_msg = '联系人姓名由2-10个汉字组成', expect_data = {}\n\n    @allure.story('用例-注册参数异常')\n    @allure.description('该用例对注册接口参数进行校验')\n    @allure.title('测试数据：【{nickname}, {mobile}, {verify_code}, {expect_msg}】')\n    @pytest.mark.usefixtures('reset')\n    @pytest.mark.parametrize('nickname, mobile, verify_code, expect_code, expect_msg, expect_data',\n                             auth_data['test_register'])\n    def test_register(self, nickname, mobile, verify_code, expect_code, expect_msg, expect_data):\n        # 调用接口注册用户\n        result_register = register(nickname, mobile, verify_code)\n    \n        # 预期\n>       assert result_register.json() == {\n            'status': expect_code,\n            'msg': expect_msg,\n            'data': expect_data\n        }\nE       AssertionError: assert {'data': {}, ...'status': 149} == {'data': {}, ... 'status': 26}\nE         Omitting 1 identical items, use -vv to show\nE         Differing items:\nE         {'msg': '验证码不正确'} != {'msg': '联系人姓名由2-10个汉字组成'}\nE         {'status': 149} != {'status': 26}\nE         Use -v to get the full diff\n\nD:\\workspace\\pytest\\testcases\\register\\test_04_register_param.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746353839,
+      "stop" : 1616746353849,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例-注册参数异常"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "register"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_register_param"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "register.test_04_register_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "26"
+  }, {
+    "name" : "expect_data",
+    "value" : "{}"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'联系人姓名由2-10个汉字组成'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13800000057'"
+  }, {
+    "name" : "nickname",
+    "value" : "'毛泽东'"
+  }, {
+    "name" : "verify_code",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "f0239392597e3b73.json",
+  "parameterValues" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'毛泽东'", "'123456'" ]
+}

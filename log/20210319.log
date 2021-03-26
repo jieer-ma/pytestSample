@@ -1,0 +1,3 @@
+[2021-03-19 19:32:13,419][set_log.py 50][INFO]: 测试开始
+[2021-03-19 19:32:13,420][set_log.py 51][DEBUG]: 测试结束
+[2021-03-19 19:35:15,297][read_data.py 23][INFO]: 加载 D:\workspace\pytest\config\setting.ini 文件....

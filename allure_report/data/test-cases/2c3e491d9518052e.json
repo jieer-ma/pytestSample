@@ -1,0 +1,70 @@
+{
+  "uid" : "2c3e491d9518052e",
+  "name" : "测试数据：【13800000059】",
+  "fullName" : "send_verification_code.test_02_send_verification_code_repeat.TestSendVerificationCode#test_send_verification_code_1",
+  "historyId" : "b7333f748d68a157cff1ca9bb711c916",
+  "time" : {
+    "start" : 1616746354754,
+    "stop" : 1616746416083,
+    "duration" : 61329
+  },
+  "description" : "相同手机号大于60s重复请求验证码",
+  "descriptionHtml" : "<p>相同手机号大于60s重复请求验证码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "请求短信验证码模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用例-多次请求验证码"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "send_verification_code"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_send_verification_code_repeat"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendVerificationCode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "send_verification_code.test_02_send_verification_code_repeat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c3e491d9518052e.json",
+  "parameterValues" : [ ]
+}

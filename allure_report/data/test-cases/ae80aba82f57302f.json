@@ -1,0 +1,105 @@
+{
+  "uid" : "ae80aba82f57302f",
+  "name" : "注册后退出登录成功",
+  "fullName" : "logout.test_01_logout.TestLogout#test_logout",
+  "historyId" : "5aa4963d5abe2228ccc90f2dde75a6b5",
+  "time" : {
+    "start" : 1616746050917,
+    "stop" : 1616746051174,
+    "duration" : 257
+  },
+  "description" : "该用例主要对用户退出登录进行冒烟测试",
+  "descriptionHtml" : "<p>该用例主要对用户退出登录进行冒烟测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746050832,
+      "stop" : 1616746050916,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "该用例主要对用户退出登录进行冒烟测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a28be5bed01c214",
+      "name" : "stdout",
+      "source" : "4a28be5bed01c214.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户退出登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用例-用户退出登录冒烟"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "logout"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_logout"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogout"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "logout.test_01_logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "ae80aba82f57302f.json",
+  "parameterValues" : [ ]
+}

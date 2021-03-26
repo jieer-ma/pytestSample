@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "bb12319cef5968e28daa09a46ac717c5",
+    "name" : "register",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 30
+    }
+  }, {
+    "uid" : "4c61a74ccdef77c3eccf0756c34b4b1a",
+    "name" : "send_verification_code",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "e294307b5e869e9b2181239eb0874d42",
+    "name" : "login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3455d06144c3d625557e28052db58596",
+    "name" : "logout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

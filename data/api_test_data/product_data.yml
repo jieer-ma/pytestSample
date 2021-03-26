@@ -1,0 +1,5 @@
+test_to_type:
+  # 参数,密期望返回码
+  # params, except_code
+  - [111, 0]
+  - [222, 0]

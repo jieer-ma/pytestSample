@@ -1,0 +1,471 @@
+[ {
+  "uid" : "c72fb3999476806",
+  "name" : "测试数据：【美洋洋, 1380000007, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746354088,
+    "stop" : 1616746354103,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7de6a8845bd15143",
+  "name" : "测试数据：【美洋洋, 2868428, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746353908,
+    "stop" : 1616746353915,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9d3600a7099f59a8",
+  "name" : "测试数据：【美洋洋, 138000000&7, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746354053,
+    "stop" : 1616746354063,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e548995507f497c1",
+  "name" : "测试数据：【['13800000056'], 26, Json解析失败, {}】",
+  "time" : {
+    "start" : 1616746477719,
+    "stop" : 1616746477725,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b694dc5f7fb048cb",
+  "name" : "13800000099 获取验证码登录成功",
+  "time" : {
+    "start" : 1616745989386,
+    "stop" : 1616746050822,
+    "duration" : 61436
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "361b03a67ad11f4",
+  "name" : "不同手机号大于60s请求验证码",
+  "time" : {
+    "start" : 1616746416284,
+    "stop" : 1616746477591,
+    "duration" : 61307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d396c6d6ca06fe",
+  "name" : "测试数据：【1380000006, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477675,
+    "stop" : 1616746477683,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae80aba82f57302f",
+  "name" : "注册后退出登录成功",
+  "time" : {
+    "start" : 1616746050917,
+    "stop" : 1616746051174,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c0bc025ab3e71585",
+  "name" : "测试数据：【138000000561, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477690,
+    "stop" : 1616746477696,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "865cded7654ae6ed",
+  "name" : "测试数据：【12345678901, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477615,
+    "stop" : 1616746477621,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d933f9dafa750a51",
+  "name" : "测试数据：【美洋洋, 13800000057, 12345, 验证码不合法】",
+  "time" : {
+    "start" : 1616746354205,
+    "stop" : 1616746354213,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "754e9295d39ffbb8",
+  "name" : "美洋洋，13800000088 注册成功",
+  "time" : {
+    "start" : 1616746051275,
+    "stop" : 1616746051392,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e675d055aabac2e5",
+  "name" : "测试数据：【138000000$6, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477647,
+    "stop" : 1616746477652,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73ea7ef2e29d3818",
+  "name" : "不同手机号60s内重复请求验证码",
+  "time" : {
+    "start" : 1616746416086,
+    "stop" : 1616746416277,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62d9aad1f211552a",
+  "name" : "测试数据：【abc, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353692,
+    "stop" : 1616746353699,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cda1d314c1143112",
+  "name" : "重复注册：手机号/姓名均相同",
+  "time" : {
+    "start" : 1616746352819,
+    "stop" : 1616746353056,
+    "duration" : 237
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "593538eaaa2eedca",
+  "name" : "多次请求验证码，使用最新验证码注册",
+  "time" : {
+    "start" : 1616746051682,
+    "stop" : 1616746051742,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "f8505dd0b7d97c9f",
+  "name" : "重复注册：手机号相同，姓名不同",
+  "time" : {
+    "start" : 1616746353145,
+    "stop" : 1616746353205,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e6cfa373bd031396",
+  "name" : "重复注册：手机号不同，姓名相同",
+  "time" : {
+    "start" : 1616746353303,
+    "stop" : 1616746353591,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa43f62a0e640819",
+  "name" : "测试数据：【美&洋洋, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353753,
+    "stop" : 1616746353771,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6aed7ce4371135bf",
+  "name" : "测试数据：【美洋洋, 13800000057, 1234567, 验证码不正确】",
+  "time" : {
+    "start" : 1616746354233,
+    "stop" : 1616746354239,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4bb93e6d24030d71",
+  "name" : "测试数据：【138000000 6, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477659,
+    "stop" : 1616746477665,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4abb47c9c12650c3",
+  "name" : "测试数据：【美 洋洋, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353721,
+    "stop" : 1616746353727,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b2007fc1f97a2e5b",
+  "name" : "测试数据：【2868428, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477597,
+    "stop" : 1616746477604,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26fc0f1912b0ffb7",
+  "name" : "使用过期验证码注册",
+  "time" : {
+    "start" : 1616746051791,
+    "stop" : 1616746352809,
+    "duration" : 301018
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f4a993ec2a090b70",
+  "name" : "多次请求验证码，使用非最新验证码注册",
+  "time" : {
+    "start" : 1616746051569,
+    "stop" : 1616746051635,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1b14e18cba945c9",
+  "name" : "测试数据：【美洋洋, 13800000057, aaaaaa, 验证码不合法】",
+  "time" : {
+    "start" : 1616746354266,
+    "stop" : 1616746354283,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "545161dd46803bb7",
+  "name" : "测试数据：【美, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353792,
+    "stop" : 1616746353803,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "12e0b0a269f58a59",
+  "name" : "请求验证码手机号和注册手机号不一致",
+  "time" : {
+    "start" : 1616746051545,
+    "stop" : 1616746051559,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "44c20f9c0672db4d",
+  "name" : "测试数据：【None, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477731,
+    "stop" : 1616746477736,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ad194bb0aa78f5e",
+  "name" : "测试数据：【美洋洋, 13800000057, , 验证码不合法】",
+  "time" : {
+    "start" : 1616746354379,
+    "stop" : 1616746354386,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d699dc2f90080f9b",
+  "name" : "测试数据：【, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353881,
+    "stop" : 1616746353889,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1e5404e5bf7a92e7",
+  "name" : "测试数据：【美洋洋, 0317-2868428, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746353936,
+    "stop" : 1616746353942,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cb494ef170d5f02f",
+  "name" : "测试数据：【美美美美美美美美美美美, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353824,
+    "stop" : 1616746353829,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "aa07cfe3a89b7e42",
+  "name" : "测试数据：【美洋洋, 138000000577, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746354131,
+    "stop" : 1616746354137,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2c3e491d9518052e",
+  "name" : "测试数据：【13800000059】",
+  "time" : {
+    "start" : 1616746354754,
+    "stop" : 1616746416083,
+    "duration" : 61329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90d1676386c0bfa7",
+  "name" : "13800000099 请求短信验证码成功",
+  "time" : {
+    "start" : 1616746354409,
+    "stop" : 1616746354534,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "efe806970e606b45",
+  "name" : "测试数据：【美洋洋, , 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746354175,
+    "stop" : 1616746354184,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f0239392597e3b73",
+  "name" : "测试数据：【毛泽东, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353850,
+    "stop" : 1616746353857,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4abd4d2dab55c113",
+  "name" : "测试数据：【美洋洋, 138000000 7, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746354033,
+    "stop" : 1616746354038,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e2a08697a0764aa7",
+  "name" : "测试数据：【美洋洋, 11123456789, 123456, 手机号不合法】",
+  "time" : {
+    "start" : 1616746353956,
+    "stop" : 1616746353964,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7806b50a78aaf60",
+  "name" : "未请求验证码注册",
+  "time" : {
+    "start" : 1616746051441,
+    "stop" : 1616746051447,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd84881e9fe4cbe4",
+  "name" : "相同手机号60s内重复请求验证码",
+  "time" : {
+    "start" : 1616746354598,
+    "stop" : 1616746354737,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72d6da494e3f587f",
+  "name" : "测试数据：【13800000056, 26, Json解析失败, {}】",
+  "time" : {
+    "start" : 1616746477703,
+    "stop" : 1616746477709,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5612c3585ef4987b",
+  "name" : "测试数据：【138000000 6, 26, 手机号不合法, {}】",
+  "time" : {
+    "start" : 1616746477629,
+    "stop" : 1616746477636,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7586853463f822ca",
+  "name" : "测试数据：【123, 13800000057, 123456, Json解析失败】",
+  "time" : {
+    "start" : 1616746353641,
+    "stop" : 1616746353647,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "576d64478664a938",
+  "name" : "测试数据：【123, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "time" : {
+    "start" : 1616746353666,
+    "stop" : 1616746353673,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

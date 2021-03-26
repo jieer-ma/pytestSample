@@ -1,0 +1,660 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "login.test_01_login",
+    "children" : [ {
+      "name" : "13800000099 获取验证码登录成功",
+      "uid" : "b694dc5f7fb048cb",
+      "parentUid" : "a2795cd6769c44873b7fecb3b9ac0ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616745989386,
+        "stop" : 1616746050822,
+        "duration" : 61436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "login.test_01_login"
+  }, {
+    "name" : "logout.test_01_logout",
+    "children" : [ {
+      "name" : "注册后退出登录成功",
+      "uid" : "ae80aba82f57302f",
+      "parentUid" : "40e821fa61c506a478e3c63dca2598e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616746050917,
+        "stop" : 1616746051174,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "logout.test_01_logout"
+  }, {
+    "name" : "register",
+    "children" : [ {
+      "name" : "test_01_register",
+      "children" : [ {
+        "name" : "美洋洋，13800000088 注册成功",
+        "uid" : "754e9295d39ffbb8",
+        "parentUid" : "ecf756a0aeccfa330cebfe6754e7fb6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746051275,
+          "stop" : 1616746051392,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecf756a0aeccfa330cebfe6754e7fb6d"
+    }, {
+      "name" : "test_02_register_verify_code",
+      "children" : [ {
+        "name" : "未请求验证码注册",
+        "uid" : "7806b50a78aaf60",
+        "parentUid" : "cfc2dd8219f551a65db8d6f46b68de92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051441,
+          "stop" : 1616746051447,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "请求验证码手机号和注册手机号不一致",
+        "uid" : "12e0b0a269f58a59",
+        "parentUid" : "cfc2dd8219f551a65db8d6f46b68de92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746051545,
+          "stop" : 1616746051559,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "多次请求验证码，使用非最新验证码注册",
+        "uid" : "f4a993ec2a090b70",
+        "parentUid" : "cfc2dd8219f551a65db8d6f46b68de92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051569,
+          "stop" : 1616746051635,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "多次请求验证码，使用最新验证码注册",
+        "uid" : "593538eaaa2eedca",
+        "parentUid" : "cfc2dd8219f551a65db8d6f46b68de92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051682,
+          "stop" : 1616746051742,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "使用过期验证码注册",
+        "uid" : "26fc0f1912b0ffb7",
+        "parentUid" : "cfc2dd8219f551a65db8d6f46b68de92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746051791,
+          "stop" : 1616746352809,
+          "duration" : 301018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfc2dd8219f551a65db8d6f46b68de92"
+    }, {
+      "name" : "test_03_register_repeat",
+      "children" : [ {
+        "name" : "重复注册：手机号/姓名均相同",
+        "uid" : "cda1d314c1143112",
+        "parentUid" : "4ff88d338fcac287e29bd00f4027a061",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746352819,
+          "stop" : 1616746353056,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重复注册：手机号相同，姓名不同",
+        "uid" : "f8505dd0b7d97c9f",
+        "parentUid" : "4ff88d338fcac287e29bd00f4027a061",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746353145,
+          "stop" : 1616746353205,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重复注册：手机号不同，姓名相同",
+        "uid" : "e6cfa373bd031396",
+        "parentUid" : "4ff88d338fcac287e29bd00f4027a061",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353303,
+          "stop" : 1616746353591,
+          "duration" : 288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ff88d338fcac287e29bd00f4027a061"
+    }, {
+      "name" : "test_04_register_param",
+      "children" : [ {
+        "name" : "测试数据：【123, 13800000057, 123456, Json解析失败】",
+        "uid" : "7586853463f822ca",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353641,
+          "stop" : 1616746353647,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'Json解析失败'", "'13800000057'", "123", "'123456'" ]
+      }, {
+        "name" : "测试数据：【123, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "576d64478664a938",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353666,
+          "stop" : 1616746353673,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'123'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【abc, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "62d9aad1f211552a",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353692,
+          "stop" : 1616746353699,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'abc'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美 洋洋, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "4abb47c9c12650c3",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353721,
+          "stop" : 1616746353727,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'美 洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美&洋洋, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "aa43f62a0e640819",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353753,
+          "stop" : 1616746353771,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'美&洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "545161dd46803bb7",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353792,
+          "stop" : 1616746353803,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'美'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美美美美美美美美美美美, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "cb494ef170d5f02f",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353824,
+          "stop" : 1616746353829,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'美美美美美美美美美美美'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【毛泽东, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "f0239392597e3b73",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746353850,
+          "stop" : 1616746353857,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'毛泽东'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "d699dc2f90080f9b",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353881,
+          "stop" : 1616746353889,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "''", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 2868428, 123456, 手机号不合法】",
+        "uid" : "7de6a8845bd15143",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353908,
+          "stop" : 1616746353915,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'2868428'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 0317-2868428, 123456, 手机号不合法】",
+        "uid" : "1e5404e5bf7a92e7",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353936,
+          "stop" : 1616746353942,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'0317-2868428'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 11123456789, 123456, 手机号不合法】",
+        "uid" : "e2a08697a0764aa7",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746353956,
+          "stop" : 1616746353964,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'11123456789'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 138000000 7, 123456, 手机号不合法】",
+        "uid" : "4abd4d2dab55c113",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354033,
+          "stop" : 1616746354038,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'138000000 7'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 138000000&7, 123456, 手机号不合法】",
+        "uid" : "9d3600a7099f59a8",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354053,
+          "stop" : 1616746354063,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'138000000&7'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 1380000007, 123456, 手机号不合法】",
+        "uid" : "c72fb3999476806",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354088,
+          "stop" : 1616746354103,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'1380000007'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 138000000577, 123456, 手机号不合法】",
+        "uid" : "aa07cfe3a89b7e42",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354131,
+          "stop" : 1616746354137,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "'138000000577'", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, , 123456, 手机号不合法】",
+        "uid" : "efe806970e606b45",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354175,
+          "stop" : 1616746354184,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'手机号不合法'", "''", "'美洋洋'", "'123456'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 13800000057, 12345, 验证码不合法】",
+        "uid" : "d933f9dafa750a51",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354205,
+          "stop" : 1616746354213,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'验证码不合法'", "'13800000057'", "'美洋洋'", "'12345'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 13800000057, 1234567, 验证码不正确】",
+        "uid" : "6aed7ce4371135bf",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354233,
+          "stop" : 1616746354239,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "149", "{}", "'验证码不正确'", "'13800000057'", "'美洋洋'", "'1234567'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 13800000057, aaaaaa, 验证码不合法】",
+        "uid" : "d1b14e18cba945c9",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354266,
+          "stop" : 1616746354283,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'验证码不合法'", "'13800000057'", "'美洋洋'", "'aaaaaa'" ]
+      }, {
+        "name" : "测试数据：【美洋洋, 13800000057, , 验证码不合法】",
+        "uid" : "4ad194bb0aa78f5e",
+        "parentUid" : "468c6280418500e748f18842f9f2542e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354379,
+          "stop" : 1616746354386,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'验证码不合法'", "'13800000057'", "'美洋洋'", "''" ]
+      } ],
+      "uid" : "468c6280418500e748f18842f9f2542e"
+    } ],
+    "uid" : "d4bfa6fd781b2a1c70a0c4a3633884a3"
+  }, {
+    "name" : "send_verification_code",
+    "children" : [ {
+      "name" : "test_01_send_verification_code",
+      "children" : [ {
+        "name" : "13800000099 请求短信验证码成功",
+        "uid" : "90d1676386c0bfa7",
+        "parentUid" : "77799dc9c14f25f38e4661482f6b8efa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354409,
+          "stop" : 1616746354534,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77799dc9c14f25f38e4661482f6b8efa"
+    }, {
+      "name" : "test_02_send_verification_code_repeat",
+      "children" : [ {
+        "name" : "相同手机号60s内重复请求验证码",
+        "uid" : "bd84881e9fe4cbe4",
+        "parentUid" : "356b1a92876bd1bb1f7653bde4d531dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354598,
+          "stop" : 1616746354737,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试数据：【13800000059】",
+        "uid" : "2c3e491d9518052e",
+        "parentUid" : "356b1a92876bd1bb1f7653bde4d531dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746354754,
+          "stop" : 1616746416083,
+          "duration" : 61329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不同手机号60s内重复请求验证码",
+        "uid" : "73ea7ef2e29d3818",
+        "parentUid" : "356b1a92876bd1bb1f7653bde4d531dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746416086,
+          "stop" : 1616746416277,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不同手机号大于60s请求验证码",
+        "uid" : "361b03a67ad11f4",
+        "parentUid" : "356b1a92876bd1bb1f7653bde4d531dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746416284,
+          "stop" : 1616746477591,
+          "duration" : 61307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "356b1a92876bd1bb1f7653bde4d531dd"
+    }, {
+      "name" : "test_03_send_verification_code_param",
+      "children" : [ {
+        "name" : "测试数据：【2868428, 26, 手机号不合法, {}】",
+        "uid" : "b2007fc1f97a2e5b",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477597,
+          "stop" : 1616746477604,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'2868428'", "200" ]
+      }, {
+        "name" : "测试数据：【12345678901, 26, 手机号不合法, {}】",
+        "uid" : "865cded7654ae6ed",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477615,
+          "stop" : 1616746477621,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'12345678901'", "200" ]
+      }, {
+        "name" : "测试数据：【138000000 6, 26, 手机号不合法, {}】",
+        "uid" : "5612c3585ef4987b",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477629,
+          "stop" : 1616746477636,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'138000000 6'", "200" ]
+      }, {
+        "name" : "测试数据：【138000000$6, 26, 手机号不合法, {}】",
+        "uid" : "e675d055aabac2e5",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477647,
+          "stop" : 1616746477652,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'138000000$6'", "200" ]
+      }, {
+        "name" : "测试数据：【138000000 6, 26, 手机号不合法, {}】",
+        "uid" : "4bb93e6d24030d71",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477659,
+          "stop" : 1616746477665,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'138000000 6'", "200" ]
+      }, {
+        "name" : "测试数据：【1380000006, 26, 手机号不合法, {}】",
+        "uid" : "6d396c6d6ca06fe",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477675,
+          "stop" : 1616746477683,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'1380000006'", "200" ]
+      }, {
+        "name" : "测试数据：【138000000561, 26, 手机号不合法, {}】",
+        "uid" : "c0bc025ab3e71585",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477690,
+          "stop" : 1616746477696,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'138000000561'", "200" ]
+      }, {
+        "name" : "测试数据：【13800000056, 26, Json解析失败, {}】",
+        "uid" : "72d6da494e3f587f",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477703,
+          "stop" : 1616746477709,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'Json解析失败'", "{}", "13800000056", "400" ]
+      }, {
+        "name" : "测试数据：【['13800000056'], 26, Json解析失败, {}】",
+        "uid" : "e548995507f497c1",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477719,
+          "stop" : 1616746477725,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'Json解析失败'", "{}", "['13800000056']", "400" ]
+      }, {
+        "name" : "测试数据：【None, 26, 手机号不合法, {}】",
+        "uid" : "44c20f9c0672db4d",
+        "parentUid" : "ad9a612d67fec77ccc4dd30f9188dfa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616746477731,
+          "stop" : 1616746477736,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "'手机号不合法'", "{}", "'None'", "200" ]
+      } ],
+      "uid" : "ad9a612d67fec77ccc4dd30f9188dfa7"
+    } ],
+    "uid" : "0d4ffe07a8eabc60f23205568a0e20ae"
+  } ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "d1b14e18cba945c9",
+  "name" : "测试数据：【美洋洋, 13800000057, aaaaaa, 验证码不合法】",
+  "fullName" : "register.test_04_register_param.TestRegister#test_register",
+  "historyId" : "c74f55ff694141d4d13d3ed1cd914730",
+  "time" : {
+    "start" : 1616746354266,
+    "stop" : 1616746354283,
+    "duration" : 17
+  },
+  "description" : "该用例对注册接口参数进行校验",
+  "descriptionHtml" : "<p>该用例对注册接口参数进行校验</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746354250,
+      "stop" : 1616746354265,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例-注册参数异常"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "register"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_register_param"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "register.test_04_register_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "26"
+  }, {
+    "name" : "expect_data",
+    "value" : "{}"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'验证码不合法'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13800000057'"
+  }, {
+    "name" : "nickname",
+    "value" : "'美洋洋'"
+  }, {
+    "name" : "verify_code",
+    "value" : "'aaaaaa'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "d1b14e18cba945c9.json",
+  "parameterValues" : [ "26", "{}", "'验证码不合法'", "'13800000057'", "'美洋洋'", "'aaaaaa'" ]
+}

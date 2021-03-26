@@ -1,0 +1,94 @@
+{
+  "uid" : "cda1d314c1143112",
+  "name" : "重复注册：手机号/姓名均相同",
+  "fullName" : "register.test_03_register_repeat.TestRegister#test_register_0",
+  "historyId" : "838179b56a55cfedbb632f6c328615dd",
+  "time" : {
+    "start" : 1616746352819,
+    "stop" : 1616746353056,
+    "duration" : 237
+  },
+  "description" : "重复注册：手机号和姓名均相同，预期第二次注册失败",
+  "descriptionHtml" : "<p>重复注册：手机号和姓名均相同，预期第二次注册失败</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'data': {}, ... 'status': 99} == {'data': {}, ...'status': 140}\n  Omitting 2 identical items, use -vv to show\n  Differing items:\n  {'status': 99} != {'status': 140}\n  Use -v to get the full diff",
+  "statusTrace" : "self = <testcases.register.test_03_register_repeat.TestRegister object at 0x0000019E5E4360C8>\n\n    @allure.story('用例-重复注册')\n    @allure.title('重复注册：手机号/姓名均相同')\n    @allure.description('重复注册：手机号和姓名均相同，预期第二次注册失败')\n    @pytest.mark.usefixtures('reset')\n    def test_register_0(self):\n        # 请求验证码并注册\n        verify_code_1 = get_verify_code('13800000099')\n        result_register_1 = register('美洋洋', '13800000099', verify_code_1)\n    \n        # 预期\n        assert result_register_1.json() == {\n            'status': 0,\n            'msg': 'ok',\n            'data': {\n                'agent_qr_code': AGENT_QR_CODE\n            }\n        }\n    \n        # 请求验证码并注册\n        verify_code_2 = get_verify_code('13800000099')\n        result_register_2 = register('美洋洋', '13800000099', verify_code_2)\n    \n        # 预期\n>       assert result_register_2.json() == {\n            'status': 140,\n            'msg': '手机号已被注册',\n            'data': {}\n        }\nE       AssertionError: assert {'data': {}, ... 'status': 99} == {'data': {}, ...'status': 140}\nE         Omitting 2 identical items, use -vv to show\nE         Differing items:\nE         {'status': 99} != {'status': 140}\nE         Use -v to get the full diff\n\nD:\\workspace\\pytest\\testcases\\register\\test_03_register_repeat.py:49: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746352813,
+      "stop" : 1616746352819,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "用例-重复注册"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "register"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_register_repeat"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "register.test_03_register_repeat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "cda1d314c1143112.json",
+  "parameterValues" : [ ]
+}

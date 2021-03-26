@@ -1,0 +1,103 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {} is None",
+      "children" : [ {
+        "name" : "未请求验证码注册",
+        "uid" : "7806b50a78aaf60",
+        "parentUid" : "91c8a7212a6b9cbb30fcd902d6857f7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051441,
+          "stop" : 1616746051447,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91c8a7212a6b9cbb30fcd902d6857f7c"
+    }, {
+      "name" : "AssertionError: assert {'data': {'ag..., 'status': 0} == {'data': {}, ...'status': 149}\n  Differing items:\n  {'data': {'agent_qr_code': 'https://img-chat.oss-cn-beijing.aliyuncs.com/kefucrm/yangzihao.png'}} != {'data': {}}\n  {'msg': 'ok'} != {'msg': '验证码不正确'}\n  {'status': 0} != {'status': 149}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "多次请求验证码，使用非最新验证码注册",
+        "uid" : "f4a993ec2a090b70",
+        "parentUid" : "d55f3bc8869702065c3877f307ed939a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051569,
+          "stop" : 1616746051635,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "多次请求验证码，使用最新验证码注册",
+        "uid" : "593538eaaa2eedca",
+        "parentUid" : "d55f3bc8869702065c3877f307ed939a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746051682,
+          "stop" : 1616746051742,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d55f3bc8869702065c3877f307ed939a"
+    }, {
+      "name" : "AssertionError: assert {'data': {}, ... 'status': 99} == {'data': {}, ...'status': 140}\n  Omitting 2 identical items, use -vv to show\n  Differing items:\n  {'status': 99} != {'status': 140}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "重复注册：手机号/姓名均相同",
+        "uid" : "cda1d314c1143112",
+        "parentUid" : "d7b80e8a1fc8fb752af488721f5c11ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746352819,
+          "stop" : 1616746353056,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重复注册：手机号相同，姓名不同",
+        "uid" : "f8505dd0b7d97c9f",
+        "parentUid" : "d7b80e8a1fc8fb752af488721f5c11ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746353145,
+          "stop" : 1616746353205,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7b80e8a1fc8fb752af488721f5c11ad"
+    }, {
+      "name" : "AssertionError: assert {'data': {}, ...'status': 149} == {'data': {}, ... 'status': 26}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'msg': '验证码不正确'} != {'msg': '联系人姓名由2-10个汉字组成'}\n  {'status': 149} != {'status': 26}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "测试数据：【毛泽东, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+        "uid" : "f0239392597e3b73",
+        "parentUid" : "ae1e856e52f99cce1b553a853f1be3e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616746353850,
+          "stop" : 1616746353857,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'毛泽东'", "'123456'" ]
+      } ],
+      "uid" : "ae1e856e52f99cce1b553a853f1be3e4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "aa43f62a0e640819",
+  "name" : "测试数据：【美&洋洋, 13800000057, 123456, 联系人姓名由2-10个汉字组成】",
+  "fullName" : "register.test_04_register_param.TestRegister#test_register",
+  "historyId" : "e534ed300d469809cdcc10e99eeb1dca",
+  "time" : {
+    "start" : 1616746353753,
+    "stop" : 1616746353771,
+    "duration" : 18
+  },
+  "description" : "该用例对注册接口参数进行校验",
+  "descriptionHtml" : "<p>该用例对注册接口参数进行校验</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1616746353737,
+      "stop" : 1616746353752,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例-注册参数异常"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "epic",
+    "value" : "saas 用户注册/登录功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('reset')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "register"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_register_param"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8VAC9PS"
+  }, {
+    "name" : "thread",
+    "value" : "2284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "register.test_04_register_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "26"
+  }, {
+    "name" : "expect_data",
+    "value" : "{}"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'联系人姓名由2-10个汉字组成'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13800000057'"
+  }, {
+    "name" : "nickname",
+    "value" : "'美&洋洋'"
+  }, {
+    "name" : "verify_code",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('reset')" ]
+  },
+  "source" : "aa43f62a0e640819.json",
+  "parameterValues" : [ "26", "{}", "'联系人姓名由2-10个汉字组成'", "'13800000057'", "'美&洋洋'", "'123456'" ]
+}
