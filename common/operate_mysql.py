@@ -59,6 +59,23 @@ class mysqlDb(object):
             # 回滚所有更改
             self.conn.rollback()
 
+    def select(self, table, fields, bind=None, range=None):
+        bind_str = None
+
+        if bind is not None:
+            bind_str = " and ".join(
+                (("%s='{}'" if type(val) == str else "%s={}") % key).format(val) for (key, val) in bind.items())
+
+        sql = "SELECT " + ",".join(fields) + " FROM " + table + ("" if bind_str is None else (" WHERE " + bind_str)) \
+              + " ORDER BY id ASC" \
+              + ("" if range is None else (" LIMIT %d" % (range[1] - range[0]) + " OFFSET %d" % range[0])) \
+              + ";"
+        print(sql)
+
+        data = db.select_db(sql)
+
+        return data
+
 
 db = mysqlDb(mysql_info['MYSQL_SAAS_DB'])
 

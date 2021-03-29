@@ -17,6 +17,7 @@ import allure
 import pytest
 from core.basic_method import base_method
 from test_api.business.auth import *
+from test_api.verify_db.finadv_saas import *
 from testcases.register.conftest import *
 from common.operate_mysql import db
 
@@ -49,18 +50,21 @@ class TestRegister(object):
             }
         }
 
-        """
-        data = db.select_db('SELECT * FROM user;')
-        assert data == [
-            {
-                'id': 23, 'nickname': '美洋洋', 'type': 1, 'status': 1,
-                'last_login': datetime.datetime.now(),
-                'create_time': datetime.datetime.now(),
-                'addition': '{}'
-            }
-        ]
-        print(data)
-        """
+        # 查询数据库: 数据库存储用户信息正确
+        user_db.getUser(
+            ['nickname', 'type', 'status'],
+            {'nickname': "美洋洋", 'status': 1},
+            [0, 10],
+            [
+                {'nickname': '美洋洋', 'type': 1, 'status': 1}
+            ]
+        ),
+        user_db.getAuthMobile(
+            ['user_id', 'mobile', 'status'],
+            expect_result=[
+                {'user_id': 65, 'mobile': '13800000088', 'status': 1}
+            ]
+        )
 
 
 if __name__ == '__main__':
