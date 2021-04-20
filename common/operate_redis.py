@@ -6,13 +6,13 @@
 
 import os
 import redis
-from common.read_data import data
+from common.read_data import *
 
 # 取到 D:\code_practice\pytestSample 路径
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 # 取到 D:\code_practice\pytestSample\config\setting.ini 路径
 data_file_path = os.path.join(BASE_PATH, 'config', 'setting.ini')
-redis_info = data.load_ini(data_file_path)['redis']
+redis_info = basic_get_data.load_ini(data_file_path)['redis']
 
 REDIS_CONF = {
     'host': redis_info['REDIS_HOST'],

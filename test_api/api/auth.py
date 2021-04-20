@@ -6,14 +6,14 @@
 
 import json
 import os
-from common.read_data import data
+from common.read_data import *
 from core.basic_method import base_method
 
 # 取到 D:\code\unittest 路径
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 # 取到 D:\code\unittest\config\setting.ini 路径
 data_file_path = os.path.join(BASE_PATH, 'config', 'setting.ini')
-auth_api_root_url = data.load_ini(data_file_path)['host']['auth_api_root_url']
+auth_api_root_url = basic_get_data.load_ini(data_file_path)['host']['auth_api_root_url']
 
 
 class AllApi(object):
