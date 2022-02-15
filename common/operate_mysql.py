@@ -13,7 +13,7 @@ from common.read_data import *
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 # 取到 D:\code_practice\pytestSample\config\setting.ini 路径
 data_file_path = os.path.join(BASE_PATH, 'config', 'setting.ini')
-mysql_info = data.load_ini(data_file_path)['mysql']
+mysql_info = basic_get_data.load_ini(data_file_path)['mysql']
 
 DB_CONF = {
     'host': mysql_info['MYSQL_HOST'],
